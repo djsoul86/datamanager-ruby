@@ -33,8 +33,8 @@ module Api
     #  end
 
      private
-     def usuario_params
-         params.permit(:id,:nombre)
+     def proyecto_params
+         params.permit(:nombre,:id)
      end
 
  end
